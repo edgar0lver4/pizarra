@@ -1,0 +1,28 @@
+{
+  "name": "socketio",
+  "version": "1.0.0",
+  "description": "Test to use socketio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "devp": "nodemon node.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgar0lver4/socketio.git"
+  },
+  "author": "Edgar Andrei Olvera Velasco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edgar0lver4/socketio/issues"
+  },
+  "homepage": "https://github.com/edgar0lver4/socketio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
